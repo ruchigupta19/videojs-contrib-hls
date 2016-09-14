@@ -116,12 +116,14 @@
     "nodemon": "^1.9.1",
     "npm-run-all": "^1.2.0",
     "portscanner": "^1.0.0",
-    "qunitjs": "^1.18.0",
+    "qunitjs": "^2.0.1",
     "serve-static": "^1.10.0",
     "shelljs": "^0.5.3",
     "sinon": "1.10.2",
     "uglify-js": "^2.5.0",
     "videojs-standard": "^4.0.3",
-    "watchify": "^3.6.0"
+    "watchify": "^3.6.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
   }
 }

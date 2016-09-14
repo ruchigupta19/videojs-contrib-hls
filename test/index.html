@@ -13,7 +13,15 @@
   <script src="/node_modules/sinon/pkg/sinon.js"></script>
   <script src="/node_modules/qunitjs/qunit/qunit.js"></script>
   <script src="/node_modules/video.js/dist/video.js"></script>
+  <script src="integration.test.js"></script>
   <script src="/dist-test/videojs-contrib-hls.js"></script>
+  <script>
+    QUnit.test('the environment is sane', function(assert) {
+      assert.ok(true, 'everything is swell');
+    });
+  </script>
+  <script src="../tmp/browserify.test.js"></script>
+  <script src="../tmp/webpack.test.js"></script>
 
 </body>
 </html>
